@@ -1,0 +1,27 @@
+<svg width="900" height="700" viewBox="0 0 900 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="900" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EAF0F6"/>
+      <stop offset="1" stop-color="#D5E0EA"/>
+    </linearGradient>
+    <linearGradient id="wash" x1="0" y1="0" x2="900" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.1"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.45"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="700" rx="24" fill="url(#bg)"/>
+  <rect width="900" height="700" rx="24" fill="url(#wash)"/>
+  <g opacity="0.5" stroke="#9CB0C1" stroke-width="8" stroke-linecap="round">
+    <path d="M76 116H824"/>
+    <path d="M76 184H824"/>
+    <path d="M76 252H824"/>
+    <path d="M76 320H824"/>
+  </g>
+  <rect x="92" y="206" width="716" height="350" rx="22" fill="#1F3451" opacity="0.14"/>
+  <rect x="118" y="236" width="664" height="260" rx="16" fill="#FFFFFF" opacity="0.74"/>
+  <circle cx="210" cy="370" r="48" fill="#FF7A00" opacity="0.18"/>
+  <circle cx="450" cy="370" r="48" fill="#FF7A00" opacity="0.14"/>
+  <circle cx="690" cy="370" r="48" fill="#FF7A00" opacity="0.18"/>
+  <text x="450" y="612" text-anchor="middle" fill="#173049" font-family="Manrope, Arial, sans-serif" font-size="54" font-weight="800" letter-spacing="-2">Imagen pendiente</text>
+  <text x="450" y="654" text-anchor="middle" fill="#5E697A" font-family="Manrope, Arial, sans-serif" font-size="22" font-weight="500">Sustituir por la imagen final del sector.</text>
+</svg>

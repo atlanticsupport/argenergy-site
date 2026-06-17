@@ -1,0 +1,41 @@
+<svg width="1400" height="900" viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1400" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F6FAFD"/>
+      <stop offset="1" stop-color="#DFE8F0"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0" y1="0" x2="1400" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.92"/>
+      <stop offset="0.42" stop-color="#FFFFFF" stop-opacity="0.15"/>
+      <stop offset="0.7" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="900" rx="24" fill="url(#g1)"/>
+  <rect width="1400" height="900" rx="24" fill="url(#g2)"/>
+  <g opacity="0.55" stroke="#A9B8C7" stroke-width="10" stroke-linecap="round">
+    <path d="M850 120V740"/>
+    <path d="M1010 70V760"/>
+    <path d="M1170 140V760"/>
+    <path d="M940 240H1240"/>
+    <path d="M910 360H1320"/>
+    <path d="M860 500H1290"/>
+    <path d="M780 180H1280"/>
+  </g>
+  <g>
+    <rect x="575" y="430" width="495" height="220" rx="18" fill="#1B4F72" opacity="0.16"/>
+    <rect x="595" y="450" width="145" height="172" rx="10" fill="#1F3451" opacity="0.88"/>
+    <rect x="750" y="450" width="145" height="172" rx="10" fill="#1F3451" opacity="0.88"/>
+    <rect x="905" y="450" width="145" height="172" rx="10" fill="#1F3451" opacity="0.88"/>
+    <path d="M618 478H716M618 512H716M618 546H716M618 580H690" stroke="#F2F7FF" stroke-width="6" stroke-linecap="round"/>
+    <path d="M773 478H871M773 512H871M773 546H871M773 580H845" stroke="#F2F7FF" stroke-width="6" stroke-linecap="round"/>
+    <path d="M928 478H1026M928 512H1026M928 546H1026M928 580H1000" stroke="#F2F7FF" stroke-width="6" stroke-linecap="round"/>
+    <rect x="101" y="640" width="580" height="84" rx="20" fill="#F3F7FB"/>
+    <rect x="118" y="664" width="190" height="36" rx="12" fill="#FFFFFF"/>
+    <rect x="324" y="664" width="190" height="36" rx="12" fill="#FFFFFF"/>
+    <rect x="530" y="664" width="132" height="36" rx="12" fill="#FFFFFF"/>
+    <rect x="1114" y="205" width="148" height="368" rx="74" fill="#2E8B57" opacity="0.18"/>
+    <rect x="1142" y="248" width="90" height="242" rx="45" fill="#2E8B57" opacity="0.26"/>
+  </g>
+  <text x="96" y="186" fill="#173049" font-family="Manrope, Arial, sans-serif" font-size="70" font-weight="800" letter-spacing="-3">Imagen pendiente</text>
+  <text x="96" y="248" fill="#5E697A" font-family="Manrope, Arial, sans-serif" font-size="28" font-weight="500">Sustituir por la fotografía final del hero.</text>
+</svg>
