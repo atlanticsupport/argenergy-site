@@ -62,6 +62,13 @@
     <symbol id="i-bolt" viewBox="0 0 24 24">
       <path d="M13 2 5 14h5l-1 8 10-13h-6l0-7Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
     </symbol>
+    <symbol id="i-drop" viewBox="0 0 24 24">
+      <path d="M12 3c2.8 4 6 7.3 6 11a6 6 0 0 1-12 0c0-3.7 3.2-7 6-11Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24">
+      <path d="M12 3 19 6v5c0 5-3.2 8.5-7 10-3.8-1.5-7-5-7-10V6l7-3Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+      <path d="M9.5 12 11 13.5 14.8 9.8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
   </svg>
 
   <header class="topbar">
@@ -163,15 +170,31 @@
         <div class="sectors-grid">
           <article class="sector-card">
             <img src="./assets/sector-industry.png" alt="Complejo industrial">
+            <div class="sector-card__overlay">
+              <svg class="sector-card__icon"><use href="#i-factory"></use></svg>
+              <div class="sector-card__label">Industria</div>
+            </div>
           </article>
           <article class="sector-card">
             <img src="./assets/sector-oilgas.png" alt="Plataforma marina de oil and gas">
+            <div class="sector-card__overlay">
+              <svg class="sector-card__icon"><use href="#i-drop"></use></svg>
+              <div class="sector-card__label">Oil & Gas</div>
+            </div>
           </article>
           <article class="sector-card">
             <img src="./assets/sector-agro.png" alt="Instalaciones agroindustriales">
+            <div class="sector-card__overlay">
+              <svg class="sector-card__icon"><use href="#i-leaf"></use></svg>
+              <div class="sector-card__label">Agroindustria</div>
+            </div>
           </article>
           <article class="sector-card">
             <img src="./assets/sector-critical.png" alt="Pasillo de infraestructura crítica">
+            <div class="sector-card__overlay">
+              <svg class="sector-card__icon"><use href="#i-shield"></use></svg>
+              <div class="sector-card__label">Infraestructura Crítica</div>
+            </div>
           </article>
         </div>
       </div>
