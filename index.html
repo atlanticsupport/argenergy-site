@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ARGENERGY | Soluciones energéticas</title>
+  <title>ARGENERGY | Soluciones energéticas industriales</title>
   <meta
     name="description"
-    content="Argenergy es una landing page institucional de una sola página para soluciones energéticas industriales en Argentina."
+    content="Argenergy ofrece soluciones energéticas para generación, operación y continuidad industrial en Argentina."
   >
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,36 +14,230 @@
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-  <main class="page" id="inicio">
-    <h1 class="sr-only">ARGENERGY</h1>
-    <p class="sr-only">
-      Soluciones energéticas para garantizar la continuidad de su operación en Argentina.
-      Navegación interna: inicio, soluciones, sectores, nosotros y contacto.
-    </p>
+  <a class="skip-link" href="#inicio">Saltar al contenido</a>
 
-    <div class="artboard" aria-label="Landing page visual">
-      <img class="artboard__image" src="./assets/reference-full.png" alt="Captura de referencia de la landing page de Argenergy">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="ARGENERGY">
+        <span class="brand__arg">ARG</span><span class="brand__energy">ENERGY</span>
+      </a>
 
-      <span id="soluciones" class="anchor anchor--soluciones" aria-hidden="true"></span>
-      <span id="sectores" class="anchor anchor--sectores" aria-hidden="true"></span>
-      <span id="nosotros" class="anchor anchor--nosotros" aria-hidden="true"></span>
-      <span id="contacto" class="anchor anchor--contacto" aria-hidden="true"></span>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-toggle>
+        <span class="menu-toggle__label">Menú</span>
+        <span class="menu-toggle__icon" aria-hidden="true"></span>
+      </button>
 
-      <a class="hotspot hotspot--inicio" href="#inicio" aria-label="Ir a Inicio">Inicio</a>
-      <a class="hotspot hotspot--nav-soluciones" href="#soluciones" aria-label="Ir a Soluciones">Soluciones</a>
-      <a class="hotspot hotspot--nav-sectores" href="#sectores" aria-label="Ir a Sectores">Sectores</a>
-      <a class="hotspot hotspot--nav-nosotros" href="#nosotros" aria-label="Ir a Nosotros">Nosotros</a>
-      <a class="hotspot hotspot--nav-contacto" href="#contacto" aria-label="Ir a Contacto">Contacto</a>
-      <a class="hotspot hotspot--nav-cta" href="#contacto" aria-label="Solicitar asesoría">Solicitar asesoría</a>
-
-      <a class="hotspot hotspot--hero-primary" href="#contacto" aria-label="Solicitar asesoría en el hero">Solicitar asesoría</a>
-      <a class="hotspot hotspot--hero-secondary" href="#soluciones" aria-label="Ver soluciones">Ver soluciones</a>
-      <a class="hotspot hotspot--footer-inicio" href="#inicio" aria-label="Ir a Inicio desde el pie">Inicio</a>
-      <a class="hotspot hotspot--footer-soluciones" href="#soluciones" aria-label="Ir a Soluciones desde el pie">Soluciones</a>
-      <a class="hotspot hotspot--footer-contacto" href="#contacto" aria-label="Ir a Contacto desde el pie">Contacto</a>
-
-      <div class="email-fix" aria-hidden="true">geral@argenergy.ar</div>
+      <nav class="site-nav" id="site-nav" aria-label="Principal">
+        <a href="#inicio">Inicio</a>
+        <a href="#soluciones">Soluciones</a>
+        <a href="#sectores">Sectores</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto">Contacto</a>
+        <a class="button button--ghost" href="#contacto">Solicitar asesoría</a>
+      </nav>
     </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Argentina · Energía industrial · Motores y respaldo crítico</p>
+          <h1>Soluciones energéticas para garantizar la continuidad de su operación</h1>
+          <p class="lead">
+            En Argenergy diseñamos, operamos y mantenemos soluciones de generación para industrias
+            e infraestructuras críticas en Argentina, con foco en disponibilidad, respuesta técnica y ejecución sólida.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button--primary" href="#contacto">Solicitar asesoría</a>
+            <a class="button button--secondary" href="#soluciones">Ver soluciones</a>
+          </div>
+
+          <ul class="hero-badges" aria-label="Indicadores de confianza">
+            <li>24/7 soporte operativo</li>
+            <li>Presencia nacional</li>
+            <li>Proyectos B2B</li>
+          </ul>
+        </div>
+
+        <div class="hero-visual" aria-label="Instalación energética">
+          <img
+            src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=1400&q=80"
+            alt="Planta industrial con infraestructura energética y equipos técnicos"
+          >
+          <div class="hero-overlay">
+            <div class="stat-card">
+              <span>+42</span>
+              <p>Instalaciones y ampliaciones atendidas</p>
+            </div>
+            <div class="stat-card">
+              <span>15 min</span>
+              <p>Tiempo medio de primera respuesta</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tight" id="soluciones">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Nuestras soluciones</h2>
+          <p>Una oferta clara, realista y orientada a continuidad de negocio.</p>
+        </div>
+
+        <div class="solutions-grid">
+          <article class="solution-card">
+            <div class="solution-card__icon" aria-hidden="true">⚡</div>
+            <h3>Generación de energía</h3>
+            <p>Sistemas confiables para operaciones críticas, con enfoque en estabilidad y disponibilidad.</p>
+          </article>
+          <article class="solution-card">
+            <div class="solution-card__icon" aria-hidden="true">🛠</div>
+            <h3>Operación y mantenimiento</h3>
+            <p>Soporte preventivo y correctivo para maximizar uptime y reducir interrupciones.</p>
+          </article>
+          <article class="solution-card">
+            <div class="solution-card__icon" aria-hidden="true">🧰</div>
+            <h3>Grupos electrógenos</h3>
+            <p>Respaldo energético para continuidad operativa en plantas, centros logísticos y servicios.</p>
+          </article>
+          <article class="solution-card">
+            <div class="solution-card__icon" aria-hidden="true">🏭</div>
+            <h3>Cogeneración</h3>
+            <p>Aprovechamiento eficiente de la energía para mejorar rendimiento y costo operativo.</p>
+          </article>
+          <article class="solution-card">
+            <div class="solution-card__icon" aria-hidden="true">📦</div>
+            <h3>Repuestos y soporte</h3>
+            <p>Atención especializada y suministro ágil de componentes y consumibles críticos.</p>
+          </article>
+          <article class="solution-card">
+            <div class="solution-card__icon" aria-hidden="true">🌱</div>
+            <h3>Eficiencia energética</h3>
+            <p>Optimización de consumo y mejora del desempeño energético en entornos industriales.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tight" id="sectores">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Sectores que atendemos</h2>
+          <p>Soluciones adaptadas a cada entorno operativo y a cada nivel de criticidad.</p>
+        </div>
+
+        <div class="sector-grid">
+          <article class="sector-card">
+            <img src="https://images.unsplash.com/photo-1513828583688-c52646db42da?auto=format&fit=crop&w=900&q=80" alt="Instalación industrial con equipos de proceso y operación técnica">
+            <div class="sector-card__label">Industria</div>
+          </article>
+          <article class="sector-card">
+            <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=900&q=80" alt="Plataforma industrial offshore al atardecer">
+            <div class="sector-card__label">Oil & Gas</div>
+          </article>
+          <article class="sector-card">
+            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80" alt="Paisaje agrícola con cultivos bajo luz natural">
+            <div class="sector-card__label">Agroindustria</div>
+          </article>
+          <article class="sector-card">
+            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80" alt="Infraestructura digital y centro de datos para operación crítica">
+            <div class="sector-card__label">Infraestructura crítica</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="nosotros">
+      <div class="container about-grid">
+        <div class="about-copy">
+          <div class="section-heading section-heading--left">
+            <h2>¿Por qué Argenergy?</h2>
+            <p>Combinamos criterio técnico, respuesta rápida y acompañamiento comercial simple.</p>
+          </div>
+
+          <p>
+            Trabajamos para que cada operación mantenga continuidad, eficiencia y disponibilidad energética,
+            desde la evaluación inicial hasta el soporte post-arranque.
+          </p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card">
+            <h3>Soporte técnico especializado</h3>
+            <p>Equipo capacitado en generación, operación y mantenimiento de soluciones energéticas industriales.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Cobertura nacional</h3>
+            <p>Presencia en distintos corredores industriales de Argentina para acompañar donde haga falta.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Atención rápida</h3>
+            <p>Priorizamos respuesta ágil para minimizar tiempos de inactividad y tomar decisiones con claridad.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Soluciones a medida</h3>
+            <p>Diseñamos propuestas adaptadas a las necesidades específicas de cada cliente y planta.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--cta" id="contacto">
+      <div class="container cta-grid">
+        <div class="cta-copy">
+          <p class="eyebrow">Contacto</p>
+          <h2>¿Busca una solución energética confiable para su operación?</h2>
+          <p>Conversemos sobre su proyecto y definamos la mejor solución para su negocio.</p>
+          <div class="cta-actions">
+            <a class="button button--primary" href="mailto:geral@argenergy.ar">Escribir a geral@argenergy.ar</a>
+            <a class="button button--secondary" href="tel:+541155552030">+54 11 5555 2030</a>
+          </div>
+        </div>
+
+        <div class="contact-panel">
+          <div class="contact-panel__item">
+            <span class="contact-panel__label">Email</span>
+            <strong>geral@argenergy.ar</strong>
+          </div>
+          <div class="contact-panel__item">
+            <span class="contact-panel__label">Teléfono</span>
+            <strong>+54 11 5555 2030</strong>
+          </div>
+          <div class="contact-panel__item">
+            <span class="contact-panel__label">Base</span>
+            <strong>Buenos Aires, Argentina</strong>
+          </div>
+          <form class="mini-form">
+            <input type="text" placeholder="Nombre y empresa" aria-label="Nombre y empresa">
+            <input type="email" placeholder="Correo electrónico" aria-label="Correo electrónico">
+            <button class="button button--primary" type="button">Solicitar contacto</button>
+          </form>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <a class="brand brand--footer" href="#inicio" aria-label="ARGENERGY">
+          <span class="brand__arg">ARG</span><span class="brand__energy">ENERGY</span>
+        </a>
+        <p>Soluciones energéticas para industrias en Argentina.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#inicio">Inicio</a>
+        <a href="#soluciones">Soluciones</a>
+        <a href="#sectores">Sectores</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
 </body>
 </html>
