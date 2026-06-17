@@ -3,238 +3,240 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ARGENERGY | Soluciones energéticas industriales</title>
-  <meta
-    name="description"
-    content="Argenergy ofrece soluciones energéticas para generación, operación y continuidad industrial en Argentina."
-  >
+  <title>ARGENERGY | Soluciones energéticas</title>
+  <meta name="description" content="Argenergy soluciones energéticas para industrias e infraestructuras críticas en Argentina.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-  <a class="skip-link" href="#inicio">Saltar al contenido</a>
+  <svg class="sr-only" aria-hidden="true" focusable="false">
+    <symbol id="i-factory" viewBox="0 0 24 24">
+      <path d="M4 20V10l5 3V10l5 3V8l6 3v9H4Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+      <path d="M8 20v-5h3v5M15 20v-4h3v4M7 7v-2M10 7V4M13 7V5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="i-wrench" viewBox="0 0 24 24">
+      <path d="M14.5 5.5a4 4 0 0 0-5.7 4.6L4 15l5 5 4.9-4.9a4 4 0 0 0 4.6-5.7l-3.5 3.5-2.8-2.8 3.5-3.5Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="i-generator" viewBox="0 0 24 24">
+      <rect x="4" y="5" width="13" height="14" rx="1.8" fill="none" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M7 9h6M7 12h3M7 15h2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+      <path d="M17 8h3v8h-3M19 10l2 0M19 14l2 0" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+      <path d="M8 19h5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="i-cogeneration" viewBox="0 0 24 24">
+      <path d="M4 19h16M6 19V11l2-2 2 2v8M12 19V8l2-2 2 2v11" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M6 7h10M13 5h4M17 3v4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="i-box" viewBox="0 0 24 24">
+      <path d="M4 8 12 4l8 4-8 4-8-4Zm0 0v8l8 4 8-4V8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+      <path d="m12 12v8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="i-leaf" viewBox="0 0 24 24">
+      <path d="M18 6c-7 0-12 4-12 10 0 2.2 1.8 4 4 4 6 0 10-5 10-12 0-.7 0-1.4-.2-2 0 0-.8 0-1.8 0Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+      <path d="M8 17c2-3 5-5 9-7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="i-headset" viewBox="0 0 24 24">
+      <path d="M5 13a7 7 0 0 1 14 0" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+      <path d="M4 14v3a2 2 0 0 0 2 2h1v-7H6a2 2 0 0 0-2 2Zm16 0v3a2 2 0 0 1-2 2h-1v-7h1a2 2 0 0 1 2 2Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+      <path d="M16 18c0 1-.9 2-2 2h-2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="i-map" viewBox="0 0 24 24">
+      <path d="M8 4 4 6v14l4-2 4 2 4-2 4 2V6l-4 2-4-2-4 2V4Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="i-stopwatch" viewBox="0 0 24 24">
+      <circle cx="12" cy="13" r="7" fill="none" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M10 3h4M12 6V4M12 13l3-2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="i-puzzle" viewBox="0 0 24 24">
+      <path d="M9 4a2 2 0 0 1 4 0v2h2a2 2 0 0 1 0 4h-2v2a2 2 0 0 0 4 0v-1h2v9H4v-5h1a2 2 0 0 0 0-4H4V4h5Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24">
+      <path d="M4 7h16v10H4V7Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+      <path d="m4 8 8 6 8-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24">
+      <path d="M8 4 6 6c0 7 5 12 12 12l2-2-3-3-2 1c-3 0-5-2-5-5l1-2-3-3Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="i-bolt" viewBox="0 0 24 24">
+      <path d="M13 2 5 14h5l-1 8 10-13h-6l0-7Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </symbol>
+  </svg>
 
-  <header class="site-header">
-    <div class="container header-inner">
+  <header class="topbar">
+    <div class="container topbar__inner">
       <a class="brand" href="#inicio" aria-label="ARGENERGY">
         <span class="brand__arg">ARG</span><span class="brand__energy">ENERGY</span>
       </a>
 
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-toggle>
-        <span class="menu-toggle__label">Menú</span>
-        <span class="menu-toggle__icon" aria-hidden="true"></span>
+        Menú
       </button>
 
-      <nav class="site-nav" id="site-nav" aria-label="Principal">
-        <a href="#inicio">Inicio</a>
-        <a href="#soluciones">Soluciones</a>
-        <a href="#sectores">Sectores</a>
-        <a href="#nosotros">Nosotros</a>
-        <a href="#contacto">Contacto</a>
+      <nav class="nav" id="site-nav" aria-label="Principal">
+        <a class="nav__link is-active" href="#inicio">Inicio</a>
+        <a class="nav__link" href="#soluciones">Soluciones</a>
+        <a class="nav__link" href="#sectores">Sectores</a>
+        <a class="nav__link" href="#nosotros">Nosotros</a>
+        <a class="nav__link" href="#contacto">Contacto</a>
         <a class="button button--ghost" href="#contacto">Solicitar asesoría</a>
       </nav>
     </div>
   </header>
 
-  <main>
-    <section class="hero section" id="inicio">
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <p class="eyebrow">Argentina · Energía industrial · Motores y respaldo crítico</p>
+  <main id="inicio">
+    <section class="hero section">
+      <div class="container hero__grid">
+        <div class="hero__copy">
           <h1>Soluciones energéticas para garantizar la continuidad de su operación</h1>
-          <p class="lead">
-            En Argenergy diseñamos, operamos y mantenemos soluciones de generación para industrias
-            e infraestructuras críticas en Argentina, con foco en disponibilidad, respuesta técnica y ejecución sólida.
+          <p>
+            En Argenergy diseñamos, operamos y mantenemos soluciones de generación de energía para industrias
+            e infraestructuras críticas en Argentina.
           </p>
-
-          <div class="hero-actions">
+          <div class="hero__actions">
             <a class="button button--primary" href="#contacto">Solicitar asesoría</a>
             <a class="button button--secondary" href="#soluciones">Ver soluciones</a>
           </div>
-
-          <ul class="hero-badges" aria-label="Indicadores de confianza">
-            <li>24/7 soporte operativo</li>
-            <li>Presencia nacional</li>
-            <li>Proyectos B2B</li>
-          </ul>
         </div>
 
-        <div class="hero-visual" aria-label="Instalación energética">
-          <img
-            src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=1400&q=80"
-            alt="Planta industrial con infraestructura energética y equipos técnicos"
-          >
-          <div class="hero-overlay">
-            <div class="stat-card">
-              <span>+42</span>
-              <p>Instalaciones y ampliaciones atendidas</p>
-            </div>
-            <div class="stat-card">
-              <span>15 min</span>
-              <p>Tiempo medio de primera respuesta</p>
-            </div>
-          </div>
+        <div class="hero__visual">
+          <img src="./assets/hero-c.png" alt="Instalación industrial con equipos de generación energética">
         </div>
       </div>
     </section>
 
-    <section class="section section--tight" id="soluciones">
+    <section class="section section--solutions" id="soluciones">
       <div class="container">
-        <div class="section-heading">
-          <h2>Nuestras soluciones</h2>
-          <p>Una oferta clara, realista y orientada a continuidad de negocio.</p>
-        </div>
-
+        <h2 class="section-title">Nuestras soluciones</h2>
         <div class="solutions-grid">
           <article class="solution-card">
-            <div class="solution-card__icon" aria-hidden="true">⚡</div>
-            <h3>Generación de energía</h3>
-            <p>Sistemas confiables para operaciones críticas, con enfoque en estabilidad y disponibilidad.</p>
+            <svg class="solution-card__icon"><use href="#i-factory"></use></svg>
+            <div>
+              <h3>Generación de Energía</h3>
+              <p>Sistemas de generación confiables para operaciones críticas.</p>
+            </div>
           </article>
           <article class="solution-card">
-            <div class="solution-card__icon" aria-hidden="true">🛠</div>
-            <h3>Operación y mantenimiento</h3>
-            <p>Soporte preventivo y correctivo para maximizar uptime y reducir interrupciones.</p>
+            <svg class="solution-card__icon"><use href="#i-wrench"></use></svg>
+            <div>
+              <h3>Operación y Mantenimiento</h3>
+              <p>Soporte preventivo y correctivo para máxima disponibilidad.</p>
+            </div>
           </article>
           <article class="solution-card">
-            <div class="solution-card__icon" aria-hidden="true">🧰</div>
-            <h3>Grupos electrógenos</h3>
-            <p>Respaldo energético para continuidad operativa en plantas, centros logísticos y servicios.</p>
+            <svg class="solution-card__icon"><use href="#i-generator"></use></svg>
+            <div>
+              <h3>Grupos Electrógenos</h3>
+              <p>Respaldo energético para continuidad operativa.</p>
+            </div>
           </article>
           <article class="solution-card">
-            <div class="solution-card__icon" aria-hidden="true">🏭</div>
-            <h3>Cogeneración</h3>
-            <p>Aprovechamiento eficiente de la energía para mejorar rendimiento y costo operativo.</p>
+            <svg class="solution-card__icon"><use href="#i-cogeneration"></use></svg>
+            <div>
+              <h3>Cogeneración</h3>
+              <p>Aprovechamiento eficiente de la energía para mayor rendimiento.</p>
+            </div>
           </article>
           <article class="solution-card">
-            <div class="solution-card__icon" aria-hidden="true">📦</div>
-            <h3>Repuestos y soporte</h3>
-            <p>Atención especializada y suministro ágil de componentes y consumibles críticos.</p>
+            <svg class="solution-card__icon"><use href="#i-box"></use></svg>
+            <div>
+              <h3>Repuestos y Soporte Técnico</h3>
+              <p>Atención especializada y suministro ágil de componentes.</p>
+            </div>
           </article>
           <article class="solution-card">
-            <div class="solution-card__icon" aria-hidden="true">🌱</div>
-            <h3>Eficiencia energética</h3>
-            <p>Optimización de consumo y mejora del desempeño energético en entornos industriales.</p>
+            <svg class="solution-card__icon"><use href="#i-leaf"></use></svg>
+            <div>
+              <h3>Eficiencia Energética</h3>
+              <p>Optimización de consumo y mejora del desempeño energético.</p>
+            </div>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="section section--tight" id="sectores">
+    <section class="section section--sectors" id="sectores">
       <div class="container">
-        <div class="section-heading">
-          <h2>Sectores que atendemos</h2>
-          <p>Soluciones adaptadas a cada entorno operativo y a cada nivel de criticidad.</p>
-        </div>
-
-        <div class="sector-grid">
+        <h2 class="section-title">Sectores que atendemos</h2>
+        <p class="section-subtitle">Soluciones adaptadas a cada entorno operativo.</p>
+        <div class="sectors-grid">
           <article class="sector-card">
-            <img src="https://images.unsplash.com/photo-1513828583688-c52646db42da?auto=format&fit=crop&w=900&q=80" alt="Instalación industrial con equipos de proceso y operación técnica">
-            <div class="sector-card__label">Industria</div>
+            <img src="./assets/sector-industry.png" alt="Planta industrial">
           </article>
           <article class="sector-card">
-            <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=900&q=80" alt="Plataforma industrial offshore al atardecer">
-            <div class="sector-card__label">Oil & Gas</div>
+            <img src="./assets/sector-oilgas.png" alt="Plataforma de oil and gas">
           </article>
           <article class="sector-card">
-            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80" alt="Paisaje agrícola con cultivos bajo luz natural">
-            <div class="sector-card__label">Agroindustria</div>
+            <img src="./assets/sector-agro.png" alt="Agroindustria">
           </article>
           <article class="sector-card">
-            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80" alt="Infraestructura digital y centro de datos para operación crítica">
-            <div class="sector-card__label">Infraestructura crítica</div>
+            <img src="./assets/sector-critical.png" alt="Infraestructura crítica">
           </article>
         </div>
       </div>
     </section>
 
-    <section class="section" id="nosotros">
-      <div class="container about-grid">
-        <div class="about-copy">
-          <div class="section-heading section-heading--left">
-            <h2>¿Por qué Argenergy?</h2>
-            <p>Combinamos criterio técnico, respuesta rápida y acompañamiento comercial simple.</p>
-          </div>
-
-          <p>
-            Trabajamos para que cada operación mantenga continuidad, eficiencia y disponibilidad energética,
-            desde la evaluación inicial hasta el soporte post-arranque.
-          </p>
-        </div>
-
-        <div class="feature-grid">
-          <article class="feature-card">
+    <section class="section section--why" id="nosotros">
+      <div class="container">
+        <h2 class="section-title">¿Por qué Argenergy?</h2>
+        <div class="why-grid">
+          <article class="why-card">
+            <svg class="why-card__icon"><use href="#i-headset"></use></svg>
             <h3>Soporte técnico especializado</h3>
-            <p>Equipo capacitado en generación, operación y mantenimiento de soluciones energéticas industriales.</p>
+            <p>Equipo altamente capacitado con amplia experiencia en generación de energía.</p>
           </article>
-          <article class="feature-card">
+          <article class="why-card">
+            <svg class="why-card__icon"><use href="#i-map"></use></svg>
             <h3>Cobertura nacional</h3>
-            <p>Presencia en distintos corredores industriales de Argentina para acompañar donde haga falta.</p>
+            <p>Presencia en todo el país para acompañar su operación donde lo necesite.</p>
           </article>
-          <article class="feature-card">
+          <article class="why-card">
+            <svg class="why-card__icon"><use href="#i-stopwatch"></use></svg>
             <h3>Atención rápida</h3>
-            <p>Priorizamos respuesta ágil para minimizar tiempos de inactividad y tomar decisiones con claridad.</p>
+            <p>Respuesta ágil y eficiente para minimizar tiempos de inactividad.</p>
           </article>
-          <article class="feature-card">
+          <article class="why-card">
+            <svg class="why-card__icon"><use href="#i-puzzle"></use></svg>
             <h3>Soluciones a medida</h3>
-            <p>Diseñamos propuestas adaptadas a las necesidades específicas de cada cliente y planta.</p>
+            <p>Diseñamos propuestas adaptadas a las necesidades específicas de cada cliente.</p>
           </article>
         </div>
+        <p class="why-note">Trabajamos para que su operación mantenga continuidad, eficiencia y disponibilidad energética.</p>
       </div>
     </section>
 
     <section class="section section--cta" id="contacto">
-      <div class="container cta-grid">
-        <div class="cta-copy">
-          <p class="eyebrow">Contacto</p>
+      <div class="container cta-strip">
+        <div class="cta-strip__icon">
+          <svg><use href="#i-bolt"></use></svg>
+        </div>
+        <div class="cta-strip__copy">
           <h2>¿Busca una solución energética confiable para su operación?</h2>
           <p>Conversemos sobre su proyecto y definamos la mejor solución para su negocio.</p>
-          <div class="cta-actions">
-            <a class="button button--primary" href="mailto:geral@argenergy.ar">Escribir a geral@argenergy.ar</a>
-            <a class="button button--secondary" href="tel:+541155552030">+54 11 5555 2030</a>
-          </div>
         </div>
-
-        <div class="contact-panel">
-          <div class="contact-panel__item">
-            <span class="contact-panel__label">Email</span>
-            <strong>geral@argenergy.ar</strong>
-          </div>
-          <div class="contact-panel__item">
-            <span class="contact-panel__label">Teléfono</span>
-            <strong>+54 11 5555 2030</strong>
-          </div>
-          <div class="contact-panel__item">
-            <span class="contact-panel__label">Base</span>
-            <strong>Buenos Aires, Argentina</strong>
-          </div>
-          <form class="mini-form">
-            <input type="text" placeholder="Nombre y empresa" aria-label="Nombre y empresa">
-            <input type="email" placeholder="Correo electrónico" aria-label="Correo electrónico">
-            <button class="button button--primary" type="button">Solicitar contacto</button>
-          </form>
-        </div>
+        <a class="button button--primary cta-strip__button" href="#contacto">Contactar ahora</a>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <div>
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
         <a class="brand brand--footer" href="#inicio" aria-label="ARGENERGY">
           <span class="brand__arg">ARG</span><span class="brand__energy">ENERGY</span>
         </a>
-        <p>Soluciones energéticas para industrias en Argentina.</p>
+        <p>Soluciones energéticas para industrias en Argentina</p>
       </div>
-      <div class="footer-links">
+      <div class="footer__contact">
+        <div class="footer__contact-item"><svg><use href="#i-mail"></use></svg><span>ventas@argenergy.com.ar</span></div>
+        <div class="footer__contact-item"><svg><use href="#i-phone"></use></svg><span>+54 11 5555 2030</span></div>
+      </div>
+      <nav class="footer__nav" aria-label="Secundario">
         <a href="#inicio">Inicio</a>
         <a href="#soluciones">Soluciones</a>
-        <a href="#sectores">Sectores</a>
-        <a href="#nosotros">Nosotros</a>
         <a href="#contacto">Contacto</a>
-      </div>
+      </nav>
     </div>
   </footer>
 
