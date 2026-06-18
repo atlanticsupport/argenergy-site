@@ -159,6 +159,7 @@ section[id] {
   border-color: rgba(255, 122, 0, 0.55);
   min-height: 46px;
   padding-inline: 1.05rem;
+  margin-block: 0.35rem;
 }
 
 .section {
