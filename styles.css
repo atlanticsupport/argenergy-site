@@ -500,6 +500,7 @@ section[id] {
   gap: 0.55rem;
   color: #415264;
   font-weight: 500;
+  text-decoration: none;
 }
 
 .footer__contact-item svg {
